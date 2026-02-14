@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Free Code Wallah | No-Cost Learning for All</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     
-    
+
+    <nav class="navbar">
+        <div class="logo">Free Code<span>Wallah</span></div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Learn Coding for Free <br>with Free Code Wallah</h1>
+            <p>Search any programming topic and discover top-rated courses from across the web.</p>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="What do you want to learn? (e.g. Java, Python, AI)">
+                <button id="searchBtn">Search Now</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="resultsWrapper" class="hidden">
+        <div class="section-container">
+            <div class="results-header">    
+                <h2 id="resultTitle">Results</h2>
+                <button onclick="clearSearch()" class="clear-btn">Clear All</button>
+            </div>
+            <div id="coursesGrid" class="courses-grid"></div>
+        </div>
+    </section>
+
+    <section id="popular" class="popular-section">
+        <div class="section-container">
+            <h2>Popular Categories</h2>
+            <div class="topic-grid" id="topicGrid"></div>
+        </div>
+    </section>
+
+    <script src="logic.js"></script>
 </body>
 </html>
