@@ -16,7 +16,7 @@ const courseDatabase = [
     { type: 'yt', title: "C++ Tutorials for Beginners", platform: "CodeWithHarry", visits: 11000000, url: "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL", tags: ["c++", "cpp", "hindi"] },
 
     // --- JAVA & JAVASCRIPT ---
-    { type: 'yt', title: "Java Tutorials for Beginners", platform: "CodeWithHarry", visits: 15000000, url: "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJvpOkastQ61", tags: ["java", "hindi"] },
+    { type: 'yt', title: "Java Tutorials for Beginners", platform: "CodeWithHarry", visits: 15000000, url: "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q", tags: ["java", "hindi"] },
     { type: 'yt', title: "JavaScript Tutorials for Beginners", platform: "CodeWithHarry", visits: 14000000, url: "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL", tags: ["javascript", "js", "hindi"] },
     { type: 'web', title: "JS Algorithms & Data Structures", platform: "freeCodeCamp", visits: 22000000, url: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", tags: ["javascript", "js", "dsa"] },
 
