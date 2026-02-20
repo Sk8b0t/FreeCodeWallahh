@@ -2,7 +2,7 @@
 
 **FreeCourseWallah** is a centralized website that curates and lists **free online courses** from various platforms — making it easy for learners to discover high-quality educational resources without spending hours searching. 
 
-👉 **Live Link:** https://freecoursewallah.vercel.app/
+👉 **Live Link:** https://freecoursewallahh-sk8b0ts-projects.vercel.app/
 
 ---
 
